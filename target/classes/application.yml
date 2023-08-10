@@ -1,0 +1,15 @@
+#mysql的基本信息的配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/echarts
+    username: root
+    password: abc123456
+
+
+mybatis:
+  configuration:
+    # 驼峰命名配置
+    map-underscore-to-camel-case: true
+    # 日志输出
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
