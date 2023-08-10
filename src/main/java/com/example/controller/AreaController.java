@@ -17,7 +17,7 @@ public class AreaController {
     @Autowired
     private AreaService areaService;
 
-    @GetMapping("/area")
+    @GetMapping("/arear")
     public Result getArea(){
         Map<String, List<Integer>> map = areaService.getArea();
         return Result.success();
